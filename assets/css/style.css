@@ -1,0 +1,101 @@
+@import url('./fonts.css');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  color: white;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 14px;
+}
+
+header {
+  background-color: #a1243a;
+  padding: 30px;
+  text-align: center;
+}
+
+header h1 {
+  color: #f2af40;
+  font-family: "El Rio Lobo", serif;
+  font-size: 3.5em;
+  font-weight: normal;
+  margin-bottom: 15px;
+}
+
+header p {
+  color: white;
+  font-size: 1.5em;
+}
+
+.intro {
+  background-color: #158abe;
+  padding: 30px;
+}
+
+.intro img {
+  display: block;
+  height: auto;
+  margin: 0 auto;
+  max-width: 600px;
+  width: 100%;
+}
+
+.info {
+  background-color: black;
+  background-image: url("../images/cuzco2.jpg");
+  background-position: top center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 80vh;
+  min-height: 500px;
+  padding: 30px;
+  text-align: right;
+}
+
+.info h2 {
+  color: #f2af40;
+  font-family: "El Rio Lobo", serif;
+  font-size: 3em;
+  font-weight: normal;
+  margin-bottom: 10px;
+}
+
+.info p {
+  color: white;
+  font-size: 1.5em;
+}
+
+.prices {
+  color: black;
+  padding: 30px;
+}
+
+.prices h2 {
+  font-family: "El Rio Lobo", serif;
+  font-size: 3em;
+  font-weight: normal;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.prices ul {
+  display: block;
+  list-style-type: none;
+  margin: 0 auto;
+}
+
+.prices li {
+  font-family: "El Rio Lobo", serif;
+  font-size: 3em;
+  font-weight: normal;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.prices span {
+  margin-right: 20px;
+}
